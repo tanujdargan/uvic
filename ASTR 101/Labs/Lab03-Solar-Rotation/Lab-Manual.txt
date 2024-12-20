@@ -1,0 +1,171 @@
+Equipment
+pictures of the Sun taken a day apart for about a week (available in a .zip file on
+Brightspace)
+tracing paper (optional), regular paper
+straightedge, protractor, and collipass
+NOTE: The gecnnetrical construction in this exercise is explained using the geornetrical
+instrtunents listed above. This is the quicker, more straightforward option. However, if you
+have the appropriate software, you are welccnne to collil)lete this exercise digitally. It is
+entirely possible to complete this exercise in GIMP using tile Ineasurelnent and drawing tools.
+Data Collection
+NOTE: Eight high resolution images of the sunspots taken on eight consecutive
+days are available on Brightspace. Download and use those for completing the
+lab exercise.
+You are provided with digital ililages of the Sun with one (or a few) sunspots taken by
+the Solar Dynalilics Observatory, which is in geosynchronous orbit around Earth. Each of
+the illiages were taken 24 hours apart over the duration of 1 week. If there is more than
+one sunspot on each irnage, choose the largest for recording. The sunspot tracing and
+projection diagram should be included in the data section of your report.
+You will be loading up each irnage one at a tinme and using your monitor as a lightbox to
+trace the position of the sunspot onto some paper. For the first image, zooni in such that
+you can see the whole image including the edges. Record this zoom level to use for the rest
+of the images in the sequence. It is very important that you maintain the exact same
+zoom level for each of the eight images.
+Figure 2: 3D representation of a sunspot moving from position A to B, along with face-on and top-down projections (left
+panel), and an equivalent 2D schematic that can be produced from face-on pictures of the Sun (right panel).
+
+rn•ace the Sunspot
+The first step will be to combine the sunspot observations into a single figure so that you
+can see all the positions at once. Using tracing paper may make this easier, but it is fine to
+use regular printer paper. It may help to work in a dark room to increase the contrast.
+l. Open the first image and adjust the zoom so that you can see both the face of the Sun
+and the edges of the image. Record the zoom level somewhere so you can use it for
+the rest of the images in the sequence.
+2. Nleasure the size of the Sun on the monitor, then use a compass to draw a circle of
+that size onto the paper. Line up this circle with the rim of the Sun on your monitor
+and trace the edges of the image onto the paper so that you can accurately align the
+rest of the images.
+3. Trace the sunspot on the paper and repeat for the subsequent images. Once you have
+traced a sunspot for each image, label the sunspot's location with the date it was
+observed (see Figure 2, e.g. points A B).
+4. Use a ruler to connect all the different observations of the same spot with a line crossing
+east-west across the face of the Sun. This line represents the line of latitude of the
+sunspot, as shown in Figure 2.
+
+5. Measure the length of the latitude line and mark an x half way across. This location
+should be approximately the center of the Sun's cross-section at this latitude.
+Project the surface
+Next, we will be projecting the two-dimensional line of latitude viewed face-on out to a
+top-down cross-section of the solar surface (as in Figure 2).
+6. Tape a new sheet of paper to the tracing paper, ensuring to line up the edge of the
+new paper with your line of latitude.
+7. On the new paper, place the point of the compass at the centre mark of your latitude
+line and trace out a semi-circle with a diameter equal to your line of latitude. This
+semi-circle represents the surface of the Sun at the latitude of the sunspot.
+Holding the taped sheet up perpendicular to the tracing paper may help visualize this. For
+reference, the semi-circle in the bottom of the right panel of Figure 2 if held perpendicular to
+the tracing paper (in upper panel) is the same as the cross-section in the 3-D representation
+of the Sun in the left panel.
+
+Project the sunspot
+To determine how far the sunspot has traveled each day, we must now project the sunspot
+from the 2-D tracing paper view onto the solar surface.
+8. Take a ruler and draw perpendicular lines, starting from each sunspot and ending at
+the semi-circle arc (ensure that your lines are all perpendicular to the latitude line;
+your TA will guide you on the best method to draw these).
+9. Once you have the sunspot positions marked on the curved solar surface, draw a new
+set of lines connecting each sunspot to the centre of the Sun at this latitude (previously
+marked with an x)
+
+Measure the angles of rotation
+We need to measure the angular distance the sunspot has been displaced on the surface of
+the Sun between each 24-hour snapshot in order to determine how many days it takes the
+sun to rotate.
+10. Using a protractor, measure the angles of each sunspot on the solar surface. It is better
+to keep the protractor fixed, and measure the angles of all the positions at one time.
+Write down these angles in Column 2 of Table 1.
+11. Calculate the change in angle, 0 (this is the same 0 as in Figure 2), between each pair
+of consecutive observations. Record your results in Column 3 of Table l.
+12. Calculate the average value of 0 and its standard deviation. The standard deviation
+(AO) will represent the uncertainty in your value of 0. State your answer with its
+uncertainty (ie. 0 ± AO).
+
+Calculate the synodic rotation period
+In one day, we know the sunspot changes location by 0 degrees. If we assume that this
+angular velocity is constant as the sunspot moves across the entire solar surface, then we
+can write:
+00
+(360 deg)
+(1)
+(1 day) ¯ P [days]
+With some modest rearranging, we can then solve for the rotational period (P) of the Sun.
+P is therefore given as:
+day)
+P [days] =
+00
+(2)
+13. Using this equation, calculate the Sun's period of rotation, P from your average change
+in angle. Show your work.
+
+Table 1: Angular displacements of a sunspot.
+Date
+Observed
+Measured
+Angle
+[0]
+Change in
+angle
+Average 0 Uncertainty:
+
+The angular positions of a sunspot as a function of time measured from the series of images
+described in Section 3. The change of angle in Column 3 is the difference between two
+consecutive angles measured in Column 2. The time difference between each measurement
+is I day.
+
+14. Convert your uncertainty in angle AO from Step 12 to uncertainty in period AP by
+using:
+0
+Show your work, and state your result for P with its associated uncertainty.
+Analysis
+Address the following points in the Analysis section of your lab report.
+(3)
+
+Sidereal Period
+While the Sun is rotating the Earth is also moving along its orbit in the same direction, as
+though it is "chasing" the sunspot. As a result, the daily change in angle as measured from
+Earth will be smaller than the sidereal one. Therefore, to calculate the "true" sidereal period
+of the Sun, we must add 10 to the measured daily change in angle to account for Earth's
+motion.
+(1) Determine the sidereal period by adding 10 to your average 0, and recalculate the
+period P using equation (2).
+(2) Calculate the uncertainty in the above value by using your corrected 0 and sidereal
+period in equation (3) (AO will be the same). State your answer for the sidereal period
+with its uncertainty.
+
+Sunspot Size and Characteristics
+(3) The diameter of the Sun is 1, 392, 500 km. Measure the diameter of your sunspot and
+of the Sun on your diagram (in cm) and calculate the size of the sunspot, using the
+relation below:
+Photo diameter of sunspot (cm) Real diameter of sunspot (km)
+(4)
+Photo diameter of Sun (cm
+Real diameter of Sun (km)
+Some modest rearranging will allow you to determine the real diameter of the sunspot.
+(4) For comparison, the diameter of the Earth is 12, 756 km. How many Earths does your
+calculated sunspot size represent?
+(5) You used the same assumption as Galileo during this lab, that is that sunspots are
+'fixed" to the solar surface. How can you check this assumption using your diagram
+and/or the pictures of the Sun provided in the lab? Some things to consider:
+What would you observe if the sunspot were merely something passing between
+us and the Sun vs something on the surface of the Sun?
+• If the sunspot were on the surface but not fixed in position, how would that
+appear?
+
+Discussion
+Your discussion should address the following in addition to the relevant points in the Lab
+Report Guidelines:
+What were the main assumptions you made about the Sun and sunspots that made
+the exercise possible?
+Report your results for the synodic and sidereal periods and their respective uncertain-
+ties (P ± AP), then compare these measurements to more recent values (the sidereal
+period at the solar equator is 24.5 days). Are your measurements consistent? What
+changes to your data collection assumptions may improve your results?
+The Sun is not a solid body so it rotates faster at its equator (no 26 day synodic
+period) and slower at its poles ( > 30 day synodic period). A typical rotation period
+at intermediate latitudes (no 260) is
+27 days. Given this differential rotation, how
+might your results change if your sunspot were located at a different latitude? Is your
+estimate for the sidereal period consistent with this picture?
+Why did the observation of sunspots contradict the Ptolemaic Greek cosmology? How
+did the discovery of sunspots change humankind's perception of our place in the Uni-
+verse?

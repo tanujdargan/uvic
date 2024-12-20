@@ -1,0 +1,422 @@
+Introduction:
+
+Due to the quantum nature of light, it behaves simultaneously like a wave (defined by
+quantities such as wavelength, frequency and speed), and like a stream of massless particles,
+or packets of energy called photons. For the sake of this lab exercise, we will only be
+focussing on the wavelike nature of light.
+The wavelength of a wave is the distance between consecutive "peaks" or "crests". The
+wavelength of visible light is short, and is usually measured in nanometres (1 nm = 10^¯9 m
+or angstroms (1 angstrom =  10^¯10 m). The wavelength of light determines its colour, as perceived
+by the eye. Red light has a wavelength of around 6500 Å, green light of about 5000 Å, and
+blue light of about 4500 Å. The human eye responds to wavelengths in the range of about
+4000-7000 Å. A given wavelength of light corresponds to a particular energy for the photons;
+higher energies have shorter (bluer) wavelengths.
+Every type of atom every element can be thought of as a cloud of electrons orbiting a
+central nucleus. These electrons exist in various energy states. Transitions to and from these
+energy states require specific amounts of energy (the "quantum" in quantum physics), which
+either release or absorb energy in the form of a photon of the corresponding wavelength.
+A spectrum (plural spectra) is the measurement of the relative intensity of light at different
+wavelengths (or energies). Broadly, there are three types of spectral features:
+
+Continuum : A spectrum with smoothly varying intensity across a continuous mix of wave-
+lengths (as opposed to large excesses or deficits of intensity at particular wavelengths).
+You will typically see continuum emission where you have a hot, dense source, such
+as an incandescent lightbulb, or the surface of a star. One special type of continuum
+spectrum is a called a blackbody, which has a particular kind of continuum spec-
+trum with a broad peak in intensity. We typically see blackbody spectra from the
+surface of stars. The overall intensity of a blackbody source increases sharply with in-
+creasing temperature (Stefan-Boltzmann law) which also corresponds to shorter peak
+wavelengths (Wien's law). Hotter blackbodies are always bluer, and for two otherwise
+similar blackbodies, the hotter one will be brighter.
+
+Emission Line : When an electron in an atom moves from a high energy state to a lower
+energy, it will emit a photon with a wavelength equivalent to the change in energy.
+This can be the source of emission of many photons of the same wavelength, so there
+will be a sharp peak in intensity at that particular wavelength. This can appear as
+a bright emission line over a faint (or non-existent) continuum. This type of feature
+appears when you have a hot, diffuse gas along your line of sight. The spectra from the
+discharge tubes which you will be observing for this lab exercise are emission spectra.
+
+Absorption Line : When an electron is promoted from a lower to a higher energy state,
+it will absorb a photon with a wavelength equivalent to that energy. Therefore, when
+light passes through a cool gas, the electrons in the gas absorb many photons of the
+same wavelength. This removes radiation of a certain wavelength from the spectrum,
+so there is a sharp dip in intensity or absorption at that particular wavelength. This
+can appear as a dark bar on a continuum spectrum. You see this type of spectrum
+when light from a continuum source passes through a cool, diffuse gas along the line
+of sight.
+
+Because the number and arrangement of electrons for each element is different, every element
+has its own unique and distinct combination of specific energies it requires to change the state
+of its electrons, and therefore, its own unique combination of spectral lines. The emission
+and absorption spectra for a particular element (or molecule) consist of the exact same
+wavelengths. A specific emission line of hydrogen from a hot, diffuse, nebula will be the
+same wavelength as the corresponding hydrogen absorption line from the atmosphere of a
+star.
+Therefore, astronomers can determine which elements are present by observing the lines that
+are present in light coming from stars or interstellar gas, and thus understand the detailed
+chemical make-up of these extremely distant objects without ever needing a sample from
+them! While chemists need samples to do their chemical analysis, astronomers do their
+chemical analysis just using the light collected by their telescopes!!
+Astronomers use the relative strengths of the spectral lines, measured with their equivalent
+widths in the spectrum taken from a mixture of elements to estimate the relative amounts
+of different elements in that mixture. We thus accurately know the chemical make-up of the
+Sun, other stars, interstellar medium, distant galaxies, and so on. We can use these same
+techniques to soon be able to see what elements are in the atmospheres of planets around
+other stars by observing their absorption lines, and thus perhaps see the first signatures of
+life elsewhere in the Universe! These are only a few applications of spectroscopy — spectrum measurements — in astronomy. Spectroscopy, the analysis of the spectra of elements is
+therefore an essential tool for an astronomer.
+One way to observe a spectrum is to split up light from a source by wavelength so that
+different colours hit a detector at different locations for measurement. Splitting up light by
+wavelength can be done in several ways, for instance with water droplets in the air (rainbow),
+with a glass prism, or with a grating which has finely spaced, ruled lines. For this lab, we
+will use such a diffraction grating, which is a special film of plastic on which there are 600
+parallel lines accurately etched on every millimeter of the film.
+In the first two parts of this lab, you will be exploring the spectra of various sources. In the
+third part, you will be using images taken by a diffraction grating attached to a webcam as
+a spectrograph to determine the exact wavelengths of three emission lines of Hydrogen.
+
+Spectrographs
+Diffraction gratings are particularly suited for scientific measurements as they spread light
+out linearly. That is, the amount that each wavelength of light is spread out on the detector
+is directly proportional to its wavelength.
+
+For a spectral observation, light from the target passes through a slit in the spectroscope,
+passes through (or is reflected by) the grating, and the resulting spectrum is imaged by the
+detector. The spectrum will appear in the image as a bright central peak (the image of the
+source) with the colours of the spectrum spread to either side. However, we are looking at
+a picture. How can we relate what we see in the picture to actual wavelengths?
+For a diffraction grating spectroscope, the separation between the central peak and individual
+emission (or absorption) lines on the detector (𝑥) is related to their wavelengths (λ) via:
+(1)	λ = m(𝑥)+b
+That is, the equation of a line with slope m and intercept b. In order to determine the values
+of the constants m and b, astronomers need to calibrate their spectrograph by imaging a
+source with known wavelengths. This is typically an arc lamp filled with a specific gas
+mixture.
+As part of this lab, you will be using a Helium discharge tube as a calibration source for a
+webcam spectrograph, and using the calibration to determine the wavelengths of the first
+three Hydrogen Balmer lines.
+
+Data Collection:
+Part I: Visual observation of different types of spectra
+Normally, for this part of the lab, we observe the spectra of different light sources using the
+handheld diffraction grating. Instead the spectra for different light sources and for different
+chemical elements have been recorded and are shown in Figures 1 — 4. Your TAs will explain
+these spectra during the lab class, and outline the lab work you need to complete. The four
+kinds of sources are:
+1. Incandescent light bulb with varying input power
+2. Sunlight,
+3. Fluorescent lamp,
+4. Gas discharge tubes.
+Further details of each type and images are given below:
+1. Incandescent lamp with varying input power
+In the incandescent lamp, light is emitted by a tungsten wire heated by electricity to high
+temperature. The power input to the light bulb can be varied, so the temperature of the
+wire may be increased or decreased. In order to study the spectrum of this light source,
+the light is passed through a diffraction grating and recorded with a camera. In the case
+of the incandescent lamp, since the light source is a heated metal, we observe a continuum
+spectrum. The power input is set to a low value first, and the spectrum is recorded. The
+power input is then increased to its maximum, and the spectrum is recorded again. The two
+spectra shown below are for low and high power settings of the lamp. The dark, horizontal
+bars seen in each image are shadows cast by the filament supports in the bulb, and are not
+spectral features.
+Figure 1: Low (top) and high power (bottom) continuum spectra from the incandescent
+lamp photographed with a handheld diffraction grating and DSLR camera. The spectra are
+shown with shorter wavelengths (violet) on the left, and longer wavelengths (red, NIR) on the
+right. The horizontal lines are shadows caused by the filament supports in the light bulb and
+are not spectral features. This particular DSLR camera is intended for astrophotography,
+so the peachy-orange colour to the right of the red in the spectrum is actually
+near-IR wavelengths.
+Include the images of the incandescent bulb spectra in the data section of your
+lab report, and answer the following:
+1. Compare the high and low power incandescent spectra. How are they different? Ex-
+plain in your own words the reasons for the differences you notice related to the overall
+brightness of both spectra, as well as the colors seen in each of them. It may help to
+annotate the images.
+2. Sunlight
+Sunlight is a good example of an absorption spectrum combined with a continuum spectrum.
+Dark lines in the spectrum of the Sun were first recorded by William Hyde Wollaston in the
+early 19th century, and were mapped in detail a decade later by Joseph von Fraunhofer.
+Fraunhofer identified over 500 unique lines and labelled the most prominent of them with
+the letters A-K. As a result, the solar absorption lines are typically called "Fraunhofer lines".
+Deep in the core of the Sun, vast amounts of energy are produced by fusion. The energy
+propagates outward through the layers of the Sun until it reaches the photosphere, the last
+layer where the gas is opaque (the solar "surface"). The energy escapes the photosphere
+as light and passes through layers of transparent cooler gas. The extremely high tempera-
+ture and opacity of the photosphere produces a continuum spectrum. As this light passes
+through the cooler gas, the gas absorbs light at certain wavelengths depending on its chemical
+composition. This creates the absorption lines in the spectrum.
+Since the spectrum of each chemical element is unique, astronomers can estimate the chemi-
+cal composition of the gas from these absorption lines. In addition, by measuring the depth
+and width of these lines, scientists can estimate how much of each element is present, the temperature, gravitational force and many other physical properties of the star. A photo-
+graph of the solar spectrum is shown in Figure 2. This photograph was taken by pointing
+the camera and grating at a narrow slit in the blinds of a window.
+Figure 2: A photograph of the solar spectrum taken with the DSLR camera and handheld
+diffraction grating, with wavelengths increasing from left to right. The absorption lines are
+the vertical features. This image has been squashed vertically for display purposes; the full
+resolution version is in the .zip file.
+Include the image of the solar spectrum in your lab report's data section:
+2. Annotate the image to point out the "peak" brightness (i.e., the colour that appears
+the brightest), and indicate 5 or 6 prominent absorption lines in the image. Note:
+only the vertical features are absorption lines. Any horizontal bands are caused by
+shadows behind the slit, not absorption features.
+3. Compare the lines you indicated to the diagram on Brightspace that shows the Fraun-
+hofer lines. For each line, match it to the diagram and explain what element it comes
+from and whether it is solar or terrestrial in origin.
+
+3. Fluorescent Lamp
+Fluorescent lamps are commonly used for household lighting. In a fluorescent lamp, the
+atoms of a gas (common ones are mercury vapour, sodium vapour, and neon) in a glass tube
+are excited by electrical current. This causes the electrons in the atoms to jump between
+energy levels and emit light only at certain wavelengths which are typical for that gas.
+To convert this to useful light (either white or colored), which is pleasing to our eyes, the
+glass tube is coated with fluorescent coating (the white coating seen inside the glass). This
+coating absorbs the photons and re-emits them at different wavelengths. This is particularly
+important for fluorescent tubes containing mercury vapour, as mercury emits most of its
+energy at extreme UV wavelengths. The fluorescent coating converts that harmful energy
+into safer wavelengths that we can use to see.
+In Figure 3, the spectrum of a fluorescent lamp taken with the diffraction grating is shown.
+Include the photograph of the fluorescent lamp spectrum in your data section:
+4. In the spectrum of the fluorescent lamp, you can see a continuum spectrum as well as
+bright, colored lines corresponding to an emission spectrum. Annotate the image to
+point out the emission lines and continuum.
+5. Explain why you see both types of spectra in fluorescent lamps.
+
+Figure 3: A photograph of fluorescent lamp spectrum taken with the DSLR camera and
+handheld diffraction grating, with wavelengths increasing from left to right. The spectrum
+from the fluorescent lamp shows a combination of an emission spectrum superposed on a
+continuum spectrum.
+4. Discharge Tubes
+Discharge tubes are similar to fluorescent lamps as they are glass tubes filled with gas,
+across which a voltage is applied. Discharge tubes lack the fluorescent coating, meaning
+that the light we see from these tubes is purely from the gas's emission spectrum (though
+discharge tubes intended for scientific demonstration will have a coating that blocks harmful
+UV emission). Figure 4 shows the emission spectra for six "mystery" elements.
+At the following website, an online app is available to generate the spectrum of all the
+elements: https : // sites . google . com/view/linespectrabydralanj ircitano/home
+For each of the six images in Figure 4:
+6. Use the app to identify the element pictured. For each identification, include a screen-
+shot of the element in the app (you can click on the symbol at the top right to pop out
+the image of the spectrum and download it). Explain how you identified the element.
+It may be useful to annotate your screenshot to indicate the lines that drove your
+identification.
+
+To help narrow your search, here is a list of possible elements (along with proper chemical
+names as used in the periodic table):
+Argon (Ar)
+• Hydrogen (H)
+• Helium (He)
+Oxygen (O)
+Mercury (Hg)
+Nitrogen (N)
+• Iron (Fe)
+Uranium (U)
+Neon (Ne)
+Sodium (Na)
+
+Figure 4: Emission spectra of six different chemical elements, in visible wavelengths. In
+visible light, blue lines are shorter wavelengths (— higher frequency, higher energy), green
+is intermediate, and red lines are longer wavelengths and lower energy. Notice the distinct
+spectral lines in each spectrum, which permits them to be clearly identified by their spectral
+fingerprints. (Note: These spectra were taken with a higher resolution spectrograph so that
+the spectral lines are clearly seen.)
+
+Part 11: Blackbody Continuum Spectra
+The spectrum of the Sun shows a continuum spectrum superimposed with absorption lines.
+Naturally, spectra of other stars are similar. As mentioned in the introduction, the thermal
+continuum emission from the surface of stars is well-approximated by a blackbody.
+We will be using this demo from PhET to explore the properties of blackbody continuum
+emission: https : // phet . colorado . edu/sims/html/blackbody-spectrum/latest/bla
+ckbody- spectrum_en. html. In the simulation, check the boxes for "Graph Values" and
+"Labels". The overall colour of the star is indicated by the "star" above the graph.
+Use the demo to fill in Table 1. For each star in the table, record the peak wavelength of
+the spectrum in A, what the colour of that peak wavelength is (if outside the visible range,
+indicate UV or IR), and the overall colour of the star. Include this table in the data section
+of your lab report.
+Convert the wavelengths from to by multiplying by 10 000.
+
+Table 1: Blackbody propterties of various sources
+Source
+Sun
+Betelgeuse
+Sirius A
+Temperature Peak Wavelength
+5800
+3500
+10 ooo
+Peak
+Colour
+Overall
+Colour
+
+Part Ill: Spectrograph Calibration
+In this part of the lab exercise, you will use recorded spectra of Helium and Hydrogen to
+experience how astronomers identify the chemical elements present in stars using their unique
+'spectral fingerprints', and also measure many important physical properties.
+Normally, in the lab class, you would use a spectrograph (grating + camera) to record the
+spectra and make these measurements. For the sake of this lab exercise, the spectra have
+been taken and provided to you. Both the high-resolution versions of the images are included
+in the .zip file. Your TA will demonstrate how to make the measurements using GIMP.
+Using the recorded spectra, you will measure the relative positions of their spectral lines, and
+thus determine the wavelengths by replicating the spectral calibration process astronomers
+use. In this exercise, we will be using helium as the "known" spectrum, and hydrogen as the
+"unknown".
+NOTE: You will need to download and install GIMP on your computer for this part of lab
+exercise. Refer to the installation instructions on Brightspace. If you are not able to install
+Measure the Pixel Separations of the Lines
+In this step you will determine the conversion between the observed pixel positions of the
+spectral lines and their actual wavelengths. This is usually referred as the wavelength cali-
+bration of the spectrograph. Figure 5 shows the annotated image of the Helium spectrum
+to help you identify the lines, and Table 2 lists the lines with their corresponding wave-
+lengths. Notice that the red lines have longer wavelengths (N 6678 A) than the violet lines
+(N 3889 A). The zeroth order spectrum (direct image of the source) and the fainter second
+order spectrum are also shown.
+Digital cameras are made up of grids of square pixels, which represent the dimensions of
+the image. Therefore, we can determine the calibration by plotting a graph of the known
+wavelengths vs. the pixel separations for Helium. We will be measuring the pixel separations,
+in GIMP (Gnu Image Nlanipulation Program).
+1. Open the Helium spectrum image in GIMP.
+2. In the GIMP menu bar, to Tools > Measure to select the measurement tool. Once you
+have done this, a compass icon should show up in the Toolbox. You can click on this
+icon to reselect the measurement tool (or just type the letter m while holding the SHIFT
+key) if you accidentally change tools.
+3. Click and hold on the zeroth-order line, and drag the mouse while holding CTRL to
+draw a straight measurement. Release the mouse when you reach the first emission
+line (Line 8 in Figure 5). You can edit the endpoints of the measurement once they
+are placed; just remember to hold CTRL to keep the line horizontal.
+4. The length of the measurement will appear in the bar at the bottom of the main GIMP
+window. Record this number in Table 2 for Line 8.
+5. Repeat the measurements for the other Helium lines listed in the table. You can leave
+one endpoint of your measurement fixed on the "zeroth" order line and drag the other
+endpoint to the other lines.
+6. Open the hydrogen image and repeat the above steps for the three hydrogen Balmer lines (Figure 6), recording your line positions in Table 3.
+7. Use the measurement tool to measure the width of the zero-th order line in the hydrogen
+spectrum, and divide that measurement by 2. This will be the uncertainty in your line
+position measurements for hydrogen, AT.
+Calibrate the Spectrograph
+Now that we have the line position measurements, we can use Helium to determine the
+relationship between line position and wavelength.
+Make a plot of Wavelength in Å vs line position in pixels for Helium. You can
+either draw this by hand on graph paper, or use plotting software such as Microsoft Excel
+Figure 5: The Helium lamp spectrum in black and white with the eight principal spectral
+lines, listed in Table 2 shown annotated. The lines labelled 5,4 are two closely spaced blue-
+green lines indicated as left and right in Table 2. The zeroth order spectrum (reference point
+for measurements) and the faint second order spectrum are also shown.
+Table 2: Helium spectrum wavelengths and line positions.
+Line
+number
+8
+7
+6
+5
+4
+3
+2
+1
+Line position
+x (pix)
+Wavelength
+3889
+4471
+4713
+4922
+5016
+5875
+6678
+7065
+Description
+Deep violet
+Bright blue-violet
+Faint blue-violet
+Blue-green
+Blue-green
+Yellow
+Pale red
+Dark red
+
+Wavelengths and measured line positions of the prominent emission lines in the Helium
+spectrum. The line numbers match their positions shown in Figure 5. There are two, closely
+separated blue-green lines, as seen in Figure 5. The colors given in the last column are only
+to act as guides, and may not exactly match your interpretation. If in doubt, ask your TA.
+
+Figure 6: The Hydrogen lamp spectrum with the three principal spectral lines listed in
+Table 3 shown annotated. The HI line, labelled Hg, is very faint, and the left edge is only
+observable as a sudden change in brightness. The zeroth order spectrum (reference point for
+measurements) and the faint second order spectrum are also shown.
+Table 3: Hydrogen emission line measurements.
+Balmer
+line
+Line position
+x (pix)
+Wavelength
+Description
+faint blue-violet
+blue
+bright red
+Uncertainty: Ax —
+Nleasured line positions of the prominent emission lines in the Hydrogen spectrum. Use your
+wavelength calibration graph to find out the wavelengths of these lines. The colors given in
+the last column are only to act as guides, and may not exactly match your interpretation.
+or Google Sheets (or your software of choice). We have provided an optional Excel template
+on Brightspace if you want to go this route. Refer back to the Graph and Table Guidelines
+for best results in your lab report.
+If you drew your graph by hand:
+Draw a line of best fit through the points.
+For each of the line separations in Table 3, draw a vertical line on the graph at the
+corresponding pixel position to where it intersects with your best fit line.
+For each of the points of intersection with your best fit line, draw a horizontal line
+connecting it to the y-axis.
+Read off the value where each horizontal line intersects the y-axis, and record that
+value in the "Wavelength" column of Table 3.
+If you used the computer:
+Your software should have an option to add a "trendline" to the graph. This is your
+best fit line.
+Determine the slope and y-intercept of the line (m and b in equation (1)). Your software
+will have an option to show the equation of your trendline. Alternatively, you can use
+the LINEST function in the spreadsheet. Either of these methods will give you the
+slope (m) and y-intercept (b) of your line. Don't forget to state them in your data
+section if you used this method.
+Calculate equation (1) for each of the three hydrogen lines and record the values in the
+Wavelength column of Table 3.
+Don't forget to attach this graph to the data section of your lab report.
+
+Analysis
+Address the following points in the Analysis section of your report:
+Spectral Features
+(1) Briefly explain what causes each type of spectral feature seen in each of the sources
+in Part I, and what it tells us about the underlying conditions (e.g. temperature,
+density) of each source. Your TA will help by pointing out features and offering some
+explanation.
+(2) When examining the Fraunhofer lines, most of them were solar in origin, but some
+were also terrestrial (from Earth). Why would these lines be present in our photo of
+the solar spectrum, and what causes them?
+Blackbody Continuum Spectra
+These questions are based on the results of the PhET Simulation.
+(3) Using some research, find out what type of star Betelgeuse is. Does the color you
+determined from the simulation match the expected color of the star, based on its
+type?
+(4) What is the spectral type of the star, Sirius? Explain whether or not the color you
+determined from the simulation matches the expected color based on the star's spectral
+type?
+(5) Does the peak wavelength you determined for the Sun agree with the peak wavelength
+evident in our picture of the solar spectrum (Figure 2)? Explain.
+(6) Based on your observations of the blackbody curve, why don't we see green stars even
+when the star's peak wavelength is green?
+Spectral Calibration
+(7) Determine the uncertainty in your hydrogen line wavelengths. Show your work.
+• If you drew the graph by hand: choose one of the lines and find the wavelength
+(N) of x' = x + Ax (position + uncertainty). Subtract your original wavelength
+value to get the uncertainty: N —
+• If you used the computer: multiply your Ax value by the slope of your line:
+Discussion
+Your discussion should address the following in addition to the relevant points in the Lab
+Report Guidelines:
+The accepted values for the hydrogen lines you measured are 6563 for I-lcm, 4861
+for H/3, and 4340 for 1-17. Do your values agree within error? (i.e., is the difference
+between your value and the accepted value smaller than AA?). How far off are they?
+What are some of the factors that may have affected your results?
+Applying what you have learned, how might spectroscopy be used to learn about
+extrasolar planet atmospheres? Your answer should include:
+The conditions under which you could observe such a spectrum,
+What type of spectrum it would be, and
+What makes this type of observation particularly challenging?
