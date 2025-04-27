@@ -1,0 +1,10 @@
+For first time u need to install openconnect so do:
+apt-get install vpnc-scripts openconnect
+
+Then to connect you do (remove the -b to run in foreground):
+sudo openconnect -b --useragent=AnyConnect --no-dtls --user=<netlinkidhere> vpn.uvic.ca/student
+
+and approve on duo
+
+then to end session do:
+sudo killall openconnect

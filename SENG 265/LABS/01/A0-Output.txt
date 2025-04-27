@@ -1,0 +1,214 @@
+tanujd@TDLegion-Slim7i:~$ ls
+try1
+tanujd@TDLegion-Slim7i:~$ ps
+  PID TTY          TIME CMD
+ 1252 pts/1    00:00:00 bash
+ 1266 pts/1    00:00:00 ps
+tanujd@TDLegion-Slim7i:~$ ls
+try1
+tanujd@TDLegion-Slim7i:~$ sudo openconnect -b --useragent=AnyConnect --no-dtls --user=tanujd vpn.uvic.ca/student
+[sudo] password for tanujd:
+Sorry, try again.
+[sudo] password for tanujd:
+Sorry, try again.
+[sudo] password for tanujd:
+POST https://vpn.uvic.ca/student
+Connected to 206.87.82.1:443
+SSL negotiation with vpn.uvic.ca
+Connected to HTTPS on vpn.uvic.ca with ciphersuite (TLS1.2)-(ECDHE-X25519)-(RSA-SHA256)-(AES-256-GCM)
+XML POST enabled
+Please enter your username and password.
+Password:
+POST https://vpn.uvic.ca/
+Got CONNECT response: HTTP/1.1 200 OK
+CSTP connected. DPD 80, Keepalive 30
+Configured as 206.87.87.200, with SSL connected and DTLS disabled
+Session authentication will expire at Sun Jan 19 15:53:36 2025
+
+Continuing in background; pid 1271
+tanujd@TDLegion-Slim7i:~$ ssh tanujd@ugls.ece.uvic.ca
+The authenticity of host 'ugls.ece.uvic.ca (142.104.81.20)' can't be established.
+ED25519 key fingerprint is SHA256:wkGdBzVOiZu7yqqzIUBlpHnoOqhVcblmTxesoualSp0.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'ugls.ece.uvic.ca' (ED25519) to the list of known hosts.
+tanujd@ugls.ece.uvic.ca's password:
+-------------------------------------------------------------------------------
+ - To access this machine remotely, use Secure Shell protocol 2 (SSH2),
+   Secure FTP (SFTP), and / or Secure Copy Protocol (SCP) as detailed at:
+   http://www.ece.uvic.ca/computing/remote-access.shtml
+
+ - Use of this facility must adhere to:
+   'Policy IM7200: Responsible Use of Information Technology Services',
+   http://www.uvic.ca/universitysecretary/assets/docs/policies/IM7200_6030_.pdf
+   AND
+   'Faculty of Engineering Standards for Professional Behaviour',
+   http://www.uvic.ca/engineering/assets/docs/professional-behaviour.pdf
+   AND
+   'Faculty of Engineering: Use of the Engineering Computer Data Network
+   Infrastructure', http://www.uvic.ca/engineering/current/services/computing/
+-------------------------------------------------------------------------------
+System Administrator: eceit@ece.uvic.ca                        December 4, 2023
+[tanujd@ugls19 ~]$ ls
+Desktop    Downloads  new-empty-file.txt         Pictures  public_html  Videos
+Documents  Music      new-empty-remote-file.txt  Public    Templates
+[tanujd@ugls19 ~]$ mkdir a0
+[tanujd@ugls19 ~]$ cd a0
+[tanujd@ugls19 a0]$ git clone ssh://tanujd@git.seng.uvic.ca/seng265/tanujd
+Cloning into 'tanujd'...
+The authenticity of host 'git.seng.uvic.ca (142.104.90.46)' can't be established.
+ED25519 key fingerprint is SHA256:Wnpm9uNZftgW/ySK8Sz4+Xk2+Wq057wWFh8NxkGYayA.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'git.seng.uvic.ca' (ED25519) to the list of known hosts.
+     _____                _                           _
+    | ____| _ __    __ _ (_) _ __    ___   ___  _ __ (_) _ __    __ _
+    |  _|  | '_ \  / _` || || '_ \  / _ \ / _ \| '__|| || '_ \  / _` |
+    | |___ | | | || (_| || || | | ||  __/|  __/| |   | || | | || (_| |
+    |_____||_| |_| \__, ||_||_| |_| \___| \___||_|   |_||_| |_| \__, |
+                    |___/                                        |___/
+
+-------------------------------------------------------------------------------
+
+   Use of this system must adhere to:
+   'Policy IM7200: Responsible Use of Information Technology Services',
+   http://www.uvic.ca/universitysecretary/assets/docs/policies/IM7200_6030_.pdf
+
+   AND
+
+   'Software Engineering Program Standards for Professional Behaviour',
+   http://www.uvic.ca/engineering/assets/docs/professional-behaviour.pdf
+
+   AND
+
+   'Use of the Engineering Computer Data Network Infrastructure',
+   http://www.uvic.ca/engineering/current/services/computing/index.php
+
+-------------------------------------------------------------------------------
+Software Engineering Program Computer Support Group                   sengsys@uvic.ca
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint:   git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint:   git branch -m <name>
+remote: Counting objects: 36, done.
+remote: Compressing objects: 100% (31/31), done.
+remote: Total 36 (delta 1), reused 0 (delta 0)
+Receiving objects: 100% (36/36), 11.93 MiB | 18.93 MiB/s, done.
+Resolving deltas: 100% (1/1), done.
+[tanujd@ugls19 a0]$ cd tanujd
+[tanujd@ugls19 tanujd]$ mkdir a0
+[tanujd@ugls19 tanujd]$ cd a0
+[tanujd@ugls19 a0]$ echo -e "#include <stdio.h> \n int main(void){puts(\"Hello, World\");}" >> hello.c
+[tanujd@ugls19 a0]$ gcc hello.c -o hello
+[tanujd@ugls19 a0]$ ./hello
+Hello, World
+[tanujd@ugls19 a0]$ echo "print(f'Hello, World')" >> hello.py
+[tanujd@ugls19 a0]$ python hello.py
+Hello, World
+[tanujd@ugls19 a0]$ cd ..
+[tanujd@ugls19 tanujd]$ git add -A
+[tanujd@ugls19 tanujd]$ git commit -m "a0 submission."
+[master eb6b51b] a0 submission.
+ Committer: Tanuj Dargan <tanujd@ugls19.ece.uvic.ca>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 3 insertions(+)
+ create mode 100755 a0/hello
+ create mode 100644 a0/hello.c
+ create mode 100644 a0/hello.py
+[tanujd@ugls19 tanujd]$ git push
+     _____                _                           _
+    | ____| _ __    __ _ (_) _ __    ___   ___  _ __ (_) _ __    __ _
+    |  _|  | '_ \  / _` || || '_ \  / _ \ / _ \| '__|| || '_ \  / _` |
+    | |___ | | | || (_| || || | | ||  __/|  __/| |   | || | | || (_| |
+    |_____||_| |_| \__, ||_||_| |_| \___| \___||_|   |_||_| |_| \__, |
+                    |___/                                        |___/
+
+-------------------------------------------------------------------------------
+
+   Use of this system must adhere to:
+   'Policy IM7200: Responsible Use of Information Technology Services',
+   http://www.uvic.ca/universitysecretary/assets/docs/policies/IM7200_6030_.pdf
+
+   AND
+
+   'Software Engineering Program Standards for Professional Behaviour',
+   http://www.uvic.ca/engineering/assets/docs/professional-behaviour.pdf
+
+   AND
+
+   'Use of the Engineering Computer Data Network Infrastructure',
+   http://www.uvic.ca/engineering/current/services/computing/index.php
+
+-------------------------------------------------------------------------------
+Software Engineering Program Computer Support Group                   sengsys@uvic.ca
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 2.96 KiB | 433.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+To ssh://git.seng.uvic.ca/seng265/tanujd
+   54d9df0..eb6b51b  master -> master
+[tanujd@ugls19 tanujd]$ cd ~
+[tanujd@ugls19 ~]$ git clone ssh://tanujd@git.seng.uvic.ca/seng265/tanujd remote
+Cloning into 'remote'...
+     _____                _                           _
+    | ____| _ __    __ _ (_) _ __    ___   ___  _ __ (_) _ __    __ _
+    |  _|  | '_ \  / _` || || '_ \  / _ \ / _ \| '__|| || '_ \  / _` |
+    | |___ | | | || (_| || || | | ||  __/|  __/| |   | || | | || (_| |
+    |_____||_| |_| \__, ||_||_| |_| \___| \___||_|   |_||_| |_| \__, |
+                    |___/                                        |___/
+
+-------------------------------------------------------------------------------
+
+   Use of this system must adhere to:
+   'Policy IM7200: Responsible Use of Information Technology Services',
+   http://www.uvic.ca/universitysecretary/assets/docs/policies/IM7200_6030_.pdf
+
+   AND
+
+   'Software Engineering Program Standards for Professional Behaviour',
+   http://www.uvic.ca/engineering/assets/docs/professional-behaviour.pdf
+
+   AND
+
+   'Use of the Engineering Computer Data Network Infrastructure',
+   http://www.uvic.ca/engineering/current/services/computing/index.php
+
+-------------------------------------------------------------------------------
+Software Engineering Program Computer Support Group                   sengsys@uvic.ca
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint:   git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint:   git branch -m <name>
+remote: Counting objects: 42, done.
+remote: Compressing objects: 100% (36/36), done.
+remote: Total 42 (delta 2), reused 0 (delta 0)
+Receiving objects: 100% (42/42), 11.93 MiB | 17.28 MiB/s, done.
+Resolving deltas: 100% (2/2), done.
+[tanujd@ugls19 ~]$ ls remote/a0
+hello  hello.c  hello.py
+[tanujd@ugls19 ~]$
